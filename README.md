@@ -2,9 +2,11 @@
 
 ## 📌 Overview
 
-This project implements **External Merge Sort**, a sorting algorithm used when the dataset is too large to fit into main memory (RAM).
+External Merge Sort is a disk-based sorting algorithm used for handling datasets that are too large to fit into main memory.
 
-Instead of sorting all data at once, the algorithm divides the dataset into smaller chunks, sorts them individually, and then merges them to produce a fully sorted output.
+This project simulates the complete workflow of external sorting by generating a large dataset, dividing it into smaller sorted chunks (runs), and merging those runs through multiple passes to produce a final sorted output file.
+
+The implementation demonstrates how real-world database systems efficiently process large-scale data using file-based operations.
 
 ---
 
